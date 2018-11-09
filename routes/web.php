@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+//Route::view('/','landing');
+//Route::view('/products','products');
+//Route::view('/product','product');
+//Route::view('/cart','cart');
+//Route::view('/checkout','checkout');
+//Route::view('/thankyou','thankyou');
+
+Route::get('/home', 'HomeController@index')->name('home');
