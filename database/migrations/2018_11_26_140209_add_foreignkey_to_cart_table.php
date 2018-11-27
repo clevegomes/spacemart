@@ -29,9 +29,9 @@ class AddForeignkeyToCartTable extends Migration
     public function down()
     {
         Schema::table('cart', function (Blueprint $table) {
-            $table->dropForeign('user_id');
+            $table->dropForeign(['user_id']);
+            $table->dropForeign(['product_id']);
             $table->dropColumn('user_id');
-            $table->dropForeign('product_id');
             $table->dropColumn('product_id');
         });
     }

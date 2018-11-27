@@ -28,7 +28,7 @@ class AddForeignkeyToOrderedProductsTable extends Migration
     {
 
         Schema::table('ordered_products', function (Blueprint $table) {
-            $table->dropForeign('order_id');
+            $table->dropForeign(['order_id']);
             $table->dropColumn('order_id');
         });
     }

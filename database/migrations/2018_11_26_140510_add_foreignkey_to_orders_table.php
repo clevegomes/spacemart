@@ -31,11 +31,11 @@ class AddForeignkeyToOrdersTable extends Migration
     public function down()
     {
         Schema::table('orders', function (Blueprint $table) {
-            $table->dropForeign('user_id');
+            $table->dropForeign(['user_id']);
+            $table->dropForeign(['address_id']);
+            $table->dropForeign(['contact_id']);
             $table->dropColumn('user_id');
-            $table->dropForeign('address_id');
             $table->dropColumn('address_id');
-            $table->dropForeign('contact_id');
             $table->dropColumn('contact_id');
         });
     }
