@@ -22,5 +22,9 @@ Auth::routes();
 //Route::view('/cart','cart');
 //Route::view('/checkout','checkout');
 //Route::view('/thankyou','thankyou');
+Route::resource('/products','ProductController');
+Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function(){
+    Route::resource('/categories','Admin\CategoryController');
+});
 
 Route::get('/home', 'HomeController@index')->name('home');
