@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Category;
-use Illuminate\Http\Request;
+use App\Http\Requests\Admin\CategoriesRequest;
 use App\Http\Controllers\Controller;
 
 class CategoryController extends Controller
@@ -26,7 +26,8 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        //
+       return view('admin.categories.create');
+
     }
 
     /**
@@ -35,9 +36,11 @@ class CategoryController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(CategoriesRequest $request)
     {
-        //
+//          dd($request->only(name));
+        Category::create($request->only(['name']));
+        return redirect()->route('admin.categories.index');
     }
 
     /**
@@ -59,7 +62,7 @@ class CategoryController extends Controller
      */
     public function edit(Category $category)
     {
-        //
+        return view('admin.categories.edit',['category' => $category]);
     }
 
     /**
@@ -69,9 +72,13 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Category $category)
+    public function update(CategoriesRequest $request, Category $category)
     {
-        //
+        $category->update($request->only(['name']));
+
+        return redirect()
+            ->route('admin.categories.edit', $category)
+            ->withSuccess(__('categories.updated'));
     }
 
     /**

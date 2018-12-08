@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">Categories</div>
-
+                <a href="{{ route('admin.categories.create') }}">Create</a>
                 <div class="card-body">
                     List of Categories
                     <a href="{{ route('admin.categories.create') }}">New</a>
