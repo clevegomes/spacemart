@@ -1,0 +1,25 @@
+#notification{
+    margin: 30px 0px;
+    .sp-hed{
+        h2{ font-size: $font-30; color: $black-reg; font-weight: 600; margin: 0px; margin-bottom: 10px; }
+    }
+    .noti-bg{ background: $white; padding: 0px 15px;
+    .sp-notification{ border-bottom: solid 1px $gold-dvdr; padding: 15px 0px;
+        .sp-notification-left{ float: left; width: 70px; height: 47px; background: $gold-50; border: solid 1px $gold-20; position: relative;
+            img{ width:100%; height: 100%; object-fit: cover; position: absolute; }
+            .noti-opacity{background: $gold-reg; height: 100%; width: 100%; opacity: 0.3}
+        }
+        .sp-notification-right{ float: right; width: calc(100% - 80px); height: auto; 
+            h3{ font-size: $font-13; color: $black-70; font-weight: 400; margin: 0px;
+                span{ color:$black-reg ;font-weight: 600!important;}
+            }
+            h4{font-size: $font-13; color: $black-70 ;margin: 0px; font-weight: 500; line-height: $font-18; margin-top: 1px; }
+            h5{font-size: $font-13; color: $red-space ;margin: 0px; font-weight:500; font-family: 'robotomedium';
+                span{ padding-right: 5px;font-family: 'robotomedium';
+                    strike{font-weight: 500;color: $black-70;font-family: 'robotomedium'; }
+                    }
+            }
+        }
+    }
+    }
+}

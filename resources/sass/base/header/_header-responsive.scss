@@ -1,0 +1,150 @@
+/*-- tab --*/
+
+@media (min-width: 601px) and (max-width: 929px){
+header{ 
+    .headspace{ padding: 0px 15px;  }
+    .head1{ width: calc(100% - 260px);
+        .head1-logo{ width: 110px; 
+            .logo{ width: 94px;}
+        }
+        .head1-search{width: calc(100% - 110px) }
+    }
+    .head2{ width: 260px;
+        .icon-home{ display: none; }
+        .icon-account{display: none;}
+        .myload-ico{
+            .myload-count-mob{display: none;  } 
+        } 
+    }
+    .head-mob-3{ display: none; }
+    
+}
+
+}
+
+/*-- mobile --*/
+
+@media (max-width: 600px) {
+    header{ padding: 10px 0px; height: 58px;
+        .headspace{ padding: 0px 10px;  }
+    .head1{ width:94px;
+        .head1-logo{ width: 94px; 
+            .logo{ width: 94px;}
+        }
+        .head1-search{ display: none; 
+        }
+
+    }
+        .head-mob-3{ float: right; width: calc(100% - 105px); display: inherit;
+        .menu-icon{ float: right; width: 27px; height: 36px;  text-align: right;
+            i{ font-size:  $font-30;line-height: 36px; color: $black-reg; }
+        }
+        .profile-dp{ float: right; width: 36px; height: 36px; background: $gold-reg; border-radius: 50%; margin-right: 10px; text-align: center; overflow: hidden;
+            h3{ font-size: $font-14; font-weight: 600; line-height: 36px; margin: 0px; color: $white}
+            img{ width: 100%; height: 100% }
+        }
+        .signin-btn{
+            float: right; margin-right: 0px;
+            .space-flat-btn{
+                .btn-flat{ color: $gold-reg; font-weight: 500; }
+            }
+        }
+			.mob-space-search{float: right; margin-right: 10px; margin-top: 5px;
+				i{ color: $gold-reg; font-size: $font-26; }
+				#mb-search{
+					
+				}
+			}
+			.mob-space-search:hover{ opacity: 0.8}
+        
+        
+        }
+    .head2{ width: 102%;position: fixed;bottom: 0px;margin-left: -15px; background: $gold-reg; height: 46px;    padding: 9px 0px; z-index: 99;
+		-webkit-box-shadow: 0px 0px 20px 10px rgba(245,244,240,1);
+-moz-box-shadow: 0px 0px 20px 10px rgba(245,244,240,1);
+box-shadow: 0px 0px 20px 10px rgba(245,244,240,1);
+        .menu-icon{ display: none;}
+        .profile-dp{ display: none;}
+        .myload-ico{ height: 36px; width: 39px; margin-right: 0px; margin: 0 auto; float: none;
+            h4{ display: none; }
+            .myload-count-mob{    height: 15px; display: inherit;
+                background: $white;
+                color:  $gold-dark;
+                border-radius: 15px;
+                text-align: center;
+                font-size: 10px;
+                width: 15px;
+                position: absolute;
+                right: 20px;
+                margin: 0 auto;
+                line-height: 15px;
+                margin-top: 3px;}
+            i{ color: $gold-dark;top:7px; font-size: $font-18;}
+        }
+        .horn{margin-right: 0px; margin: 0 auto; float: none; width: 26px;  
+            .horn-count{ background: $red-space; margin-top: 0px; }
+            .horn-icon{ margin-top: -3px;
+                i{ color: $gold-dark; font-size: $font-16}
+            }
+            
+        }
+        .horn{ 
+            .horn-icon{
+                i{ color: $gold-dark;}
+            }
+        }
+        
+        .icon-account{ width: 26px;    margin: 0 auto; display: inherit;
+            i{color: $gold-dark; font-size: $font-26;margin-top: 1px;}
+        }
+        .icon-home{width: 26px;    margin: 0 auto; display: inherit;
+               i{color: $gold-dark; font-size: $font-26;margin-top: 1px;}
+        }
+        .width-mob-33{ float: right; width: 25%;border-left: solid 1px #a48b5f; height: 28px; }
+
+        }
+        .menu3{
+            .width-mob-33{ width: 33.3% } 
+        }
+
+
+}
+	#mb-search{ display: none;border-radius: 0px!important;
+		    z-index: 2;height: 58px;border-bottom: solid 1px $gold-dvdr;background: $white;padding: 10px 15px;top: 0px;position: absolute;width: 100%;
+		.mob-search{ height: 36px; display:inherit;border-radius: 0px!important;
+			.mob-sea-left{ float: left;width: calc(100% - 40px);border-radius: 0px!important;
+				input{ height: 33px; border-radius: 0px!important}
+			
+			}
+			.mob-sea-right{ float: right;color: $black-reg; width: 30px; text-align: center;  height: 36px;
+				i{font-size: $font-24;line-height: 36px; }
+			}
+		}
+	}
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

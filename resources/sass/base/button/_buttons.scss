@@ -1,0 +1,114 @@
+.bigsp{ height: 46px; }
+.space-flat-btn{
+	.btn-flat{font-size: $font-14; font-weight: 400;border-radius: 40px; color: $black-reg;
+			i{font-size: $font-11;   }
+	}
+
+}
+
+
+.space-flat-icn{
+	
+	.btn-flat{font-size: $font-14;border-radius: 40px; color: $gold-reg; padding: 0 6px;
+			i{font-size: $font-20;}
+	}
+
+}
+
+
+
+
+.space-flatbdr-btn{
+	.btn-flat{ color: $gold-reg; height: 34px; line-height: 33px; font-size: $font-14; font-weight: 400;border-radius: 40px;border: solid 1px $gold-reg; padding: 0px $font-26;}
+}
+
+.space-flatbdr-btn-clr{
+	.btn-flat{ color: $black-reg; height: 34px; line-height: 33px; font-size: $font-13; font-weight: 400;border-radius: 40px;border: solid 1px $gold-50; padding: 0px 15px;}
+}
+
+.space-flatbdr-gold{
+	.btn-flat{ color: $gold-reg; height: 34px; line-height: 33px; font-size: $font-13; font-weight: 400;border-radius: 40px;border: solid 1px $gold-50; padding: 0px 15px;}
+}
+
+
+.space-flatbdr-white{
+	.btn-flat{ color: $white; height: 34px; line-height: 33px; font-size: $font-13; font-weight: 400;border-radius: 40px;border: solid 1px $white; padding: 0px 15px;}
+}
+
+
+
+.space-btn{
+	.btn{border-radius: 40px; box-shadow: none; padding: 0px $font-26;font-size: $font-14; font-weight: 400; background: $gold-reg; height: 40px;
+	 border: none; line-height: 40px; padding: 0px 15px;
+		i{font-size: $font-11;   }
+	}
+	.btn:hover{background: $gold-reg;box-shadow: none;  }
+}
+
+.space-btnbig{
+	.btn{border-radius: 50px; box-shadow: none; padding: 0px $font-26;font-size: $font-16; font-weight: 400; background: $gold-reg; height: 46px;
+	 border: none; line-height: 46px;
+		i{font-size: $font-16;   }
+	}
+	.btn:hover{background: $gold-reg;box-shadow: none;  }
+}
+
+
+.space-btnbig-red{
+	.btn{border-radius: 50px; box-shadow: none; padding: 0px $font-36;font-size: $font-16; font-weight: 400; background: $red-space; height: 46px;
+	 border: none; line-height: 46px;
+		i{font-size: $font-16;   }
+	}
+	.btn:hover{background: $red-space;box-shadow: none;  }
+}
+
+
+.facebook{
+	.btn{border-radius: 40px 0px 0px 40px; box-shadow: none; padding: 0px $font-26;font-size: $font-14; font-weight: 400; background: $facebook; height: 40px;border: none; line-height: 40px; font-weight: 300;
+		i{font-size: $font-14;   }
+	}
+	.btn:hover{background: $facebook;box-shadow: none;  }
+}
+
+.google{
+	.btn{border-radius:0px 40px 40px 0px; box-shadow: none; padding: 0px $font-26;font-size: $font-14; font-weight: 400; background: $google; height: 40px;border: none; line-height: 40px; font-weight: 300;
+		i{font-size: $font-12;   }
+	}
+	.btn:hover{background: $google;box-shadow: none;  }
+}
+
+.space-real{
+	.btn{border-radius: 0px 40px 40px 0px; box-shadow: none; padding: 0px $font-26;font-size: $font-14; font-weight: 400; background: $gold-reg; height: 46px;border: none; line-height: 46px; font-weight: 300;}
+	.btn:hover{background: $gold-reg; box-shadow: none;  }
+}
+
+.space-cancel{
+	.btn{border-radius: 40px 0px 0px 40px; box-shadow: none; padding: 0px $font-26;font-size: $font-14; font-weight: 400; background: $white; height: 46px;border: none; line-height: 46px; font-weight: 300; border: solid 1px $gold-reg; color:$gold-reg; }
+	.btn:hover{background:$gold-reg; box-shadow: none; color: $white!important  }
+}
+
+
+
+.close-btnspace{text-align: center;animation-name: fadeInOpacity;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in;
+            animation-duration: 2s; 
+                @keyframes fadeInOpacity {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+    a{ height: 40px; width: 40px; border-radius: 50%; border: none; background: $gold-50; text-align: center;
+		i{ color: $white; font-size: $font-24; line-height: 40px; text-align: center; }
+	}
+	a:hover{background:$gold-50; }
+//	button{ height: 40px; width: 40px; border-radius: 50%; border: none; background: $gold-50; text-align: center;
+//		i{ color: $white; font-size: $font-24; line-height: 39px; text-align: center; }
+//	}
+//	button:hover{background:$gold-50; }
+//	button:focus{background:$gold-50;}
+}
+

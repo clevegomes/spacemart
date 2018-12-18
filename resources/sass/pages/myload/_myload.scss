@@ -1,0 +1,150 @@
+#myload{
+    .myload-hed{ padding: 50px 0px;
+        background: $gold-light;border-bottom: solid 1px $gold-dvdr;
+        .my-active{
+            .sp-txt h3{ color: $gold-reg}
+            .sp-num h1{ color: $gold-reg}
+            .sp-arrow h4{color: $gold-reg}
+        }
+        .myload-hide{ display: inherit;}
+        .sp-num{ float: left; margin-right: 10px;
+            h1{ font-size: $font-50; margin: 0px; font-weight: 100; color: $black-50}
+        }
+        .sp-txt{float: left;
+            h3{ font-size: $font-24; margin: 0px; margin-top: 7px; color: $black-50; font-weight: 300;}
+            h4{font-size: $font-10; margin: 0px; margin-top: 4px;color: $black-50}
+        
+        }
+        .sp-arrow{ float: right; padding-top: 8px; padding-right: 20px;
+            h4{ font-size: $font-40; font-weight: 100; margin: 0px; color: $black-50 }
+        }
+        
+        .myload-box{
+            .shopping{ float: left; width: 33% }
+            .delivery{ float: left;width: 33%}
+            .complete{ float: left;width: 33%}
+        }
+    }
+}
+
+#myloadcart{ margin: 20px 0px;
+    .myload-cart{ padding: 10px 0px;
+        border-bottom: solid 2px $gold-dvdr;
+        .my-cart-1{ float: left; width: 405px; margin-top: 3px;
+            .mycrt-lft{ float: left; width: 70px; height: 50px; border: solid 1px $gold-dvdr; background: $gold-reg; position: relative;
+                img{ width:100%; height: 100%; object-fit: cover; position: absolute; }
+                .my-load-opa{background: $gold-reg; height: 100%; width: 100%; opacity: 0.3}
+            }
+            .mycrt-rgt{ width: calc(100% - 80px); float: right;
+                h4{ color: $black-reg; font-size: $font-14; margin: 0px; font-weight: 600; margin-bottom: 6px;
+                    span{ color:$black-50}
+                }
+                .not-aditnl{ margin-top: 2px;
+                    .not-aditnl-left{ float: left; width: 20px;text-align: left;
+                        i{ font-size:$font-13; color: $black-40 }
+                    }
+                    .not-aditnl-right{ float: right;width: calc(100% - 20px);
+                        p{ font-size:$font-12; color: $black-40 ;
+                            span{ font-family: 'robotomedium'; }
+                        }
+                    }
+                }
+            }
+        
+        }
+        .my-cart-2{ float: left; width: 215px;  padding-top: 10px; border-left:  solid 1px $gold-dvdr; padding-right: 15px;
+            .quantity{ margin-left: 15px; }
+                .quantity input {
+                  -webkit-appearance: none;
+                  border: none;
+                  text-align: center;
+                  width: 90px;
+                  font-size: 16px;
+                  color: #43484D;
+                  font-weight: 300;
+                  border-top: solid 1px $gold-reg;
+                 border-bottom: solid 1px $gold-reg;	
+                    float: left;
+                    height: 38px;
+                }
+
+                button[class*=btn] {
+                  width: 40px;
+                  height: 40px;
+                  background-color: $white;
+                  border: solid 1px $gold-reg;
+                float: left;
+
+                  cursor: pointer;
+                }
+                .minus-btn{
+                    border-radius: 46px 0px 0px 46px;
+                }	
+                .plus-btn{
+                      border-radius: 0px 46px 46px 0px;
+                }						
+                .minus-btn img {
+                  margin-bottom: 4px; width: 12px;
+                }
+                .plus-btn img {
+                  margin-top: 5px; width: 12px;
+                }
+                button:focus,
+                input:focus {
+                  outline:0;
+                }
+        
+        
+        }
+        .my-cart-3{ float: left; width: 120px;  padding-right: 5px;
+            h4{ color: $black-50; font-size: $font-12; font-weight: 400;  margin: 0px; margin-top: 13px;}
+            h3{ color: $black-reg; font-size: $font-18; font-weight: 600; margin: 0px; margin-top: 3px;font-family: 'robotomedium';}
+        }
+        .my-cart-4{ float: left; width: 120px; padding-right: 5px;
+            h4{ color: $black-50; font-size: $font-12; font-weight: 400;  margin: 0px; margin-top: 13px;}
+            h3{ color: $black-reg; font-size: $font-18; font-weight: 600; margin: 0px; margin-top: 3px;font-family: 'robotomedium';}
+        }
+        .my-cart-5{ float: left; width: 40px; height: 60px; border-left:  solid 1px $gold-dvdr; text-align: right;
+            i{ color:$black-50; font-size: $font-24; line-height: 60px; }
+            i:hover{ color: $red-space }
+        }
+    }
+    
+    .not-include{ 
+        background: $gold-light; border: solid 1px $gold-dvdr; padding: 15px; margin-top: 20px;
+        h3{ color: $black-reg; font-size: $font-18; font-weight: 500; margin: 0px; border-bottom: solid 1px $white; padding-bottom: 10px;}
+        p{ color:$black-70; font-size: $font-13; font-weight: 300;line-height: $font-20; margin-top: 10px; }
+                .not-aditnl{ margin-top: 10px;
+                    .not-aditnl-left{ float: left; width: 20px;text-align: left;
+                        i{ font-size:$font-13; color: $black-70 }
+                    }
+                    .not-aditnl-right{ float: right;width: calc(100% - 20px);
+                        h6{ font-size:$font-13; color: $black-70; margin: 0px; }
+                    }
+                }
+    }
+}
+
+.proceed-space{ height: 90px; width: 100%; }
+#proceed-bar{ padding: 20px 0px; position: fixed; z-index: 99;
+ bottom: 0px; background:$gold-light; width: 100%;
+-webkit-box-shadow: 0px -15 20px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px -15 20px 0px rgba(255,255,255,1);
+box-shadow: 0px -15px 20px 0px rgba(255,255,255,1);
+    .pro-left{ float: left; width: 160px; 
+        .space-flat-btn .btn-flat{  height: 40px; line-height: 40px;
+            span{font-weight: 500;}
+        }
+    
+    }
+    .pro-right{ float: right;width: calc(100% - 160px);
+        .subtotal{ float: right; width: 130px;
+             h4{font-size: $font-13; margin: 0px; margin-top: 1px;color: $black-70; font-weight: 400;}
+              h3{ font-size: $font-20; margin: 0px; margin-top: 2px; color: $black-reg; font-weight: 600;font-family: 'robotomedium';}
+              
+        }
+        .prcd-btn{ float: right; 
+            .space-btn .btn{ padding: 0px 20px; }
+        }
+    }
+}

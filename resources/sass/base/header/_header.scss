@@ -1,0 +1,67 @@
+header{
+    background: $white; height: 91px; border-bottom: solid 1px $gold-dvdr; padding: 27px 0px;
+    headspace{}
+    .head1{ width: 600px; float: left; 
+        .head1-logo{ width: 300px; float: left;
+            .logo{ width: 94px;}
+        }
+        .head1-search{ width: 300px; float: left; }
+    }
+    .head2{ width: 300px;  float: right; height: 36px; z-index: 99;
+        .menu-icon{ float: right; width: 27px; height: 36px;  text-align: right;
+            i{ font-size:  $font-30;line-height: 36px; color: $black-reg; }
+        }
+        .profile-dp{ float: right; width: 36px; height: 36px; background: $gold-reg; border-radius: 50%; margin-right: 10px; text-align: center; overflow: hidden;
+            h3{ font-size: $font-14; font-weight: 600; line-height: 36px; margin: 0px; color: $white}
+            img{ width: 100%; height: 100% }
+        }
+        .horn{width: 20px; float: right;  margin-right: 20px;
+            .horn-count{ height: 15px; background: $gold-reg; color: $white; border-radius:15px; text-align: center; font-size: $font-10;width: 15px;margin: 0 auto;line-height: 15px; margin-top: 6px;}
+            .horn-icon{ margin-top: -2px; i{color: $black-70;font-size: $font-13;} }
+            
+        }
+        .myload-ico{ float: right; width: 100px; margin-right: 24px; position: relative; text-align: right; padding-right: 18px;    margin-top: 9px;
+            h4{ font-size: $font-14; font-weight: 500; color: $black-reg; margin: 0px;
+                span{  color:$gold-reg;font-size: $font-14; font-weight: 500; }
+            }
+            i{color: $black-70;    position: absolute;
+    right: 0px;
+    top: 5px;}
+        }
+        .signin-btn{
+            float: right; margin-right: 10px;
+            .space-flat-btn{
+                .btn-flat{ color: $gold-reg; font-weight: 500; }
+            }
+        }
+        .icon-home{ display: none; }
+        .icon-account{display: none;}
+        .myload-ico{
+            .myload-count-mob{display: none;  } 
+        } 
+
+    }
+
+     .head-mob-3{ display: none; }
+}
+	#mb-search{ display: none;
+		.mob-search{display: none;}
+	}
+.space-sidemenu{
+	.space-user-view{ height: 150px; background: $gold-light; padding: 30px; position: relative;
+		img{ opacity: 0.7; }
+		.inuser{ position: absolute;top: 26px;width: 80%;
+			.profile-dp{ float: left; width: 46px; height: 46px; background: $gold-reg; border-radius: 50%; margin-right: 10px; text-align: center; overflow: hidden;
+            h3{ font-size: $font-16; font-weight: 600; line-height: 46px; margin: 0px; color: $white}
+            img{ width: 100%; height: 100% }
+        }
+			.inuser-txt{ width: 100%;
+					h4{ color: $black-reg; font-weight: 600; font-size: $font-18; margin: 0px; margin-top: 10px;}
+					h5{ color: $black-70; font-weight: 300; font-size: $font-14; margin: 0px; margin-top: 5px; }
+			}
+
+			
+		}
+	}
+    .redmenu{ color: $red-space; }
+}

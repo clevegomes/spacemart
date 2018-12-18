@@ -1,0 +1,95 @@
+#complete-order{margin: 30px 0px;
+      h2{ color: $black-50; font-size: $font-22; font-weight: 400; margin: 0px; margin-bottom: 15px; }
+    .ship{ background: $gold-light; padding: 15px; position: relative; margin-bottom: 10px;
+        .ship-hed{ border-bottom:  solid 1px $white; padding-bottom: 5px;
+            .ship-left{ float: left; width: calc(100% - 55px);
+                h2{ color: $black-reg; font-size: $font-16; margin: 0px; margin-bottom: 10px; font-weight: 600; padding-top: 7px; }
+                .delv{
+                    background: $green-space; height: 36px; border-radius:4px; color: $white; width: 130px;
+                    padding: 0px  20px; line-height: 36px; text-align: center; font-size: $font-14;
+					i{font-size: $font-11 }
+                }
+                .cnled{
+                    background: $red-space; height: 36px; border-radius:4px; color: $white; width: 130px;
+                    padding: 0px  20px; line-height: 36px; text-align: center; font-size: $font-14;
+					i{font-size: $font-11 }
+                }
+                .proc{ line-height: $font-20;
+                    color: $gold-reg; font-size: $font-13;
+                    b{ font-weight: 500; }
+                    a{ color:$red-space; font-weight: 500; }
+                    a:hover{ text-decoration: underline!important; }
+                }
+            }
+            .ship-right{ float: right; width: 55px}
+        }
+        .ship-cntnt{
+            h6{ margin: 0px; font-weight: $font-18!important; font-weight: 600; color: $black-reg; margin-top: 10px; }
+            h3{margin: 0px; font-size: $font-13; font-weight: 400;color: $black-70; margin-top: 5px;
+                span{ color:$black-50;font-size: $font-13; font-weight: 300; }
+            }
+            .ship-address{ border-left: solid 4px $gold-reg; padding-left: 10px;
+                margin-top: 10px;
+                h4{color:$black-reg;font-size: $font-14; font-weight: 300; margin: 0px; margin-bottom: 5px;}
+                h5{color:$black-reg;font-size: $font-14; font-weight: 500; margin: 0px;}
+            }
+            
+        }
+        
+        img{ width: 30%; position: absolute; bottom: 15px; right: 15px; opacity: 0.7 }
+        .ship-invoice{
+            .invoice-box{ padding-left: 0px; padding-right: 0px; border: none; padding-bottom: 0px; padding-top: 10px;}
+        }
+    }
+    .ship-invoice{
+        .invoice-box{ border-bottom: solid 2px $gold-dvdr; width: 100%; padding: 10px 15px;
+            .invoice-1{ float: left; width: 40%;
+                h3{ margin: 0px; font-size:  $font-14; font-weight: 500; color: $black-reg; line-height: $font-18;
+                    padding-right: 10px;
+                }
+                h4{ margin: 0px;font-size:  $font-13; font-weight: 500; color: $black-50; margin-top: 4px;
+                   
+                }
+            }
+             .invoice-2{ float: left; width: 20%; 
+                 h4{margin: 0px; font-size:  $font-14; font-weight: 500; color: $black-reg;font-family: 'robotomedium';
+                     span{ color: $black-50;font-size:  $font-14;font-weight: 500; }
+                      b{ color: $black-50;font-size:  $font-14;font-weight: 500; display: none; }
+                 }
+            }
+        }
+          .invoice-box1{ padding-bottom: 10px; padding-left:15px; padding-right: 15px; width: 100%; padding-top: 15px;
+              .invoice-3{ float: left; width: 60%; min-height: 1%;}
+              .invoice-4{ float: right; width: 20%; 
+                h4{ margin: 0px; font-size:  $font-14; font-weight: 600; color: $black-70; line-height: $font-16;
+                    padding-right: 10px;
+                }
+              }
+              .invoice-5{ float: right; width: 20%; 
+                h5{ margin: 0px; font-size:  $font-18; font-weight: 600; color: $black-reg; line-height: $font-18;
+                    padding-right: 10px;font-family: 'robotomedium';
+                }
+            
+        }
+        
+        
+        }
+    
+}
+}
+#compleateorder{
+    p{ line-height: $font-30;
+        b{ color: $gold-reg; font-weight: 600; font-size: $font-16; }
+    }
+    .space-btnbig{
+        .btn{ font-weight: 500;
+            span{ font-size: $font-13; font-weight: 300; }
+        }
+    } 
+    
+}
+
+
+
+
+

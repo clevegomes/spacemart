@@ -1,0 +1,29 @@
+/*-- tab --*/
+
+@media (min-width: 601px) and (max-width: 929px){
+.sp-container{ width: 100%; padding: 0px;}
+.sp-succsess{ padding: 150px 20px }
+	
+}
+
+/*-- mobile --*/
+
+@media (max-width: 600px) {
+    .sp-container{ width: 100%; padding: 0px;}
+    .space-modal{
+        .modal{
+            .close-btnspace{
+                    top: 20px;
+                    right: 20px;
+            }
+        } 
+    } 
+    .sp-succsess{ padding: 100px 10px;
+        h2{ font-size: $font-22; line-height: $font-32; }
+        .spopup-icon{width: 60px!important;height: 60px!important;
+            i{ font-size:$font-30!important; line-height: 60px!important; }
+        }
+    }
+#my-laodgap{ height: 0px;}
+}
+

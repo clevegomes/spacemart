@@ -72,8 +72,10 @@ class CategoryController extends Controller
      * @param  \App\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(CategoriesRequest $request, Category $category)
+    public function update(CategoriesRequest $request, Category $category): RedirectResponse
     {
+        dd($request);
+
         $category->update($request->only(['name']));
 
         return redirect()

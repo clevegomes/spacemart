@@ -1,0 +1,22 @@
+/*-- tab --*/
+
+@media (min-width: 601px) and (max-width: 929px){
+    #notification{
+        .sp-container{padding: 0px 15px;
+        }
+    }
+}
+
+/*-- mobile --*/
+
+@media (max-width: 600px) {
+    #notification{margin: 15px 0px;margin-bottom: 65px;
+        .noti-bg{    padding: 0px 10px;
+            .sp-notification{ padding: 10px 0px;}
+        } 
+        .sp-hed{
+            h2{ font-size: $font-22; margin-left: 10px; margin-bottom: 15px;}
+        }
+ 
+    }
+}

@@ -1,0 +1,80 @@
+/*-- tab --*/
+
+@media (min-width: 601px) and (max-width: 929px){
+    #myload{
+        .sp-container{padding: 0px 15px;}
+        .myload-hed{padding: 10px 0px;
+            .myload-box{
+                .myload-hide{ display: none;}
+                .shopping{ width: 100%}
+                .delivery{ width: 100%}
+                .complete{ width: 100%}
+            }
+        } 
+        
+    }
+    #myloadcart{
+         .sp-container{padding: 0px 15px;}
+        .myload-cart{ position: relative;
+            .my-cart-1{ width: 100%; border-bottom: solid 1px $gold-dvdr; padding-bottom: 10px; padding-right: 50px; }
+            .my-cart-2{width:33.3%; border: none;
+                .quantity{ margin-left: 0px; }
+            }
+             .my-cart-3{width:33.3%}
+             .my-cart-4{width:33.3%}
+             .my-cart-5{ position: absolute; top: 0px; right: 0px;}
+        } 
+    }
+    #proceed-bar{
+         .sp-container{padding: 0px 15px;}
+    }
+}
+
+/*-- mobile --*/
+
+@media (max-width: 600px) {
+    #myload{
+        .sp-container{padding: 0px 10px;}
+             
+    .myload-hed{padding:10px 0px;
+            .myload-box{
+                .myload-hide{ display: none;}
+                .shopping{ width: 100%}
+                .delivery{ width: 100%}
+                .complete{ width: 100%}
+            }
+        }
+ 
+    }
+        #myloadcart{
+         .sp-container{padding: 0px 15px;}
+        .myload-cart{ position: relative;    border-bottom: solid 5px $gold-dvdr;
+            .my-cart-1{ width: 100%; border-bottom: solid 1px $gold-dvdr; padding-bottom: 10px; padding-right: 50px; }
+            .my-cart-2{width:100%; border: none;border-bottom: solid 1px $gold-dvdr;padding-top:8px; 
+                .quantity{ margin-left: 0px;    width: 170px; margin: 0 auto }
+            }
+             .my-cart-3{width:50%; text-align:center;
+				 h3{ font-size: $font-16; }
+			}
+             .my-cart-4{width:50%; text-align: center;
+				 h3{ font-size: $font-16; }
+			}
+             .my-cart-5{ position: absolute; top: 0px; right: 0px;}
+        } 
+    }
+    .proceed-space{ height: 105px; }
+    #proceed-bar{bottom: 46px;padding: 10px 0px;
+       .sp-container{padding: 0px 10px;} 
+        .pro-left{ width: 40px;
+            .space-flat-btn{
+                .btn-flat{
+                    span{ display: none; }
+                }
+            } 
+        } 
+        .pro-right{width: calc(100% - 40px);
+			.subtotal{ width: 105px; }
+		}
+    }
+}
+

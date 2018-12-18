@@ -1,0 +1,77 @@
+#delivery{ margin: 30px 0px;
+    h2{ color: $black-50; font-size: $font-22; font-weight: 400; margin: 0px; margin-bottom: 15px; }
+    .address-box{ width: 330px;
+        .select-add{ margin-top: 50px;
+            .anchor{ margin-top: 5px;
+                .ach-i{float: left;color: $gold-reg;
+                    i{font-size: $font-13;}
+                }
+                .ach-txt{ float: left;color: $gold-reg;font-size: $font-13;}
+            }
+            .anchor:hover{ opacity: 0.8; text-decoration: underline; }
+            .dropdown-wrapper{
+                width: 100%;
+                .ae-select.chosen{color: $gold-reg; font-size: $font-14; font-weight: 500; }
+                .ae-select{ position: relative;border-bottom: 2px solid $gold-dvdr; height: 30px;
+                    .ae-select-content,.ae-select-content1{color: $black-reg; font-size: $font-14; font-weight: 500;    padding-right: 25px; }
+                    .down-icon, .ae-select .up-icon{    position: absolute;right: 0px; top: -1px; font-size: $font-18; color: $black-50;
+                    }
+                }
+                .ae-dropdown,.ae-dropdown1{
+                    .dropdown-menu,.dropdown-menu1{ background: #ffff;  }
+                    
+                }
+            }
+            ul.dropdown-menu,ul.dropdown-menu1{
+                  margin:0px;
+                  padding:0px;
+                position: absolute; width: 330px; z-index: 9;
+                .drop-space{ width: 100%; height: 105px; }
+                }
+            ul.dropdown-menu li,ul.dropdown-menu1 li{
+                  padding:0px 0px; margin-top: -1px; 
+                }
+            .ae-dropdown,.ae-dropdown1 .ae-select, .dropdown-wrapper .ae-dropdown,.ae-dropdown1 .dropdown-menu>li,.dropdown-menu1>li {
+                    cursor: pointer;color: $black-reg; font-size: $font-14; font-weight: 500; background: $white;
+                    .add-box{ border: solid 1px $gold-dvdr; margin-bottom: 2px;
+                         border-left: solid 4px $gold-reg; padding: 10px;
+                        h3{ margin: 0px;color: $black-reg; font-size: $font-14; font-weight: 500; margin-bottom: 5px; }
+                        h4{ margin: 0px;color: $black-70; font-size: $font-13; font-weight: 300; margin-bottom: 3px; line-height: $font-16; }
+                    }
+                .redbox{ border-left: solid 4px $red-space;
+                    h3{color: $red-space!important; }
+                    h4{
+                        span{ color:$black-reg!important; font-weight: 400;}
+                    }
+                }
+                }
+            
+            .ae-dropdown .dropdown-menu>li>a:focus, .dropdown-wrapper .ae-dropdown .dropdown-menu>li>a:hover {
+                background: none;
+            }
+            .ae-dropdown1 .dropdown-menu1>li>a:focus, .dropdown-wrapper .ae-dropdown1 .dropdown-menu1>li>a:hover {
+                background: none;
+            }
+            .ae-disabled{
+                pointer-events: none;
+            }
+                .ae-hide,.ae-hide1{
+              display:none;
+            }
+
+            ul.dropdown-menu,ul.dropdown-menu1{
+              list-style-type: none;
+            }
+        
+        }
+    }
+    
+}
+
+       
+
+
+
+
+
+

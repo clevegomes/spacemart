@@ -1,0 +1,76 @@
+.space-check{
+	label{ color: $gold-reg;}
+}
+.space-select{
+	.dropdown-content li > span{ font-size:$font-14; color: $black-reg; font-weight: 300; }
+	.dropdown-content{ border-radius: 4px; font-weight: 300; box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2) }
+	h5{ color: $black-40; font-size: $font-12; font-weight: 300;  margin-top: 5px;line-height: $font-18; text-align: left;}
+    .select-wrapper input.select-dropdown{ font-size:$font-14;font-weight: 300;}
+}
+
+.space-date{
+	i{ position: absolute; top: 15px; right: 5px; opacity: 0.40; font-size: $font-16; }
+	.datepicker-modal{ top: auto!important;border-radius: 4px; }
+	.modal-overlay{ position: relative; }
+	.modal{ position: absolute; left: 0px; }
+	.datepicker-modal{ max-width: 100%; min-width: 100%;}
+	.datepicker-date-display{ text-align: center; }
+    .datepicker-table td.is-selected{background-color: $gold-reg; color: $white!important;}
+    .datepicker-table td.is-today{ color:$gold-reg;}
+    .datepicker-footer{ justify-content:center}
+    .datepicker-clear{ display: none; }
+	.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done{ border-radius:40px; margin: 5px; border: solid 1px  }
+	.datepicker-cancel:hover{ background:$gold-reg; box-shadow: none; color: $white  }
+	.datepicker-done:hover{ background:$gold-reg; box-shadow: none; color: $white  }
+	.dropdown-content li > span{ color: #000!important }
+
+}
+
+.space-file{ position: relative; 
+    .file-path-wrapper{     margin-left: 60px;padding-right: 10px; }
+    .file-field{
+        .btn{ background-color: $gold-reg; box-shadow: none; float: right; }
+        span{padding: 0px 10px;}
+        input.file-path{ font-size: $font-14; font-weight:  300!important; }
+        }
+    h5{ color: $black-40; font-size: $font-12; font-weight: 300;  margin-top: 0px;line-height: $font-18; }
+    .upload-img{
+        position: absolute; left: 0px; top: -13px; text-align: center;
+        width: 60px;
+        height: 60px;
+        border: solid 1px $gold-reg; line-height: 65px;
+        background: $gold-20; border-radius: 4px; 
+        i{font-size: $font-30;text-align: center; color:$gold-reg; line-height: 60px;}
+    
+    }
+}
+
+.space-search{
+    nav{ box-shadow: none!important;border-radius: 40px!important;
+        height: 36px!important;line-height: 36px!important;
+        .nav-wrapper{ background-color:  $gold-reg;border-radius: 40px!important;
+        .input-field input[type=search]{padding-left: 40px;width: calc(100% - 40px);color: $black-reg;}
+        }
+        i{font-size: $font-18}
+    } 
+    nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i{ line-height: 36px; height:36px; font-size: $font-18 }
+    input[type=search]:not(.browser-default){height: 36px!important;}
+    .input-field input[type=search] ~ .material-icons{ font-size: 18px;  }
+    input{
+
+    }
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $white;font-weight:  400; font-size: $font-15;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $white;font-weight:  400; font-size: $font-15;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $white;font-weight:  400; font-size: $font-15;
+}
+:-moz-placeholder { /* Firefox 18- */
+ color: $white;font-weight:  400; font-size: $font-15;
+}
+	
+
+}

@@ -1,41 +1,65 @@
-@charset 'utf-8';
+//base
 
-// Abstracts
-@import 'abstracts/variables';
+@import 'base/_reset.scss';
+@import 'base/_variables.scss';
 
-// Base
-@import 'base/reset';
-@import 'base/base';
-@import 'base/helpers';
-@import 'base/typography';
-@import 'base/utility';
+@import 'base/button/_buttons.scss';
 
-// Components
-@import 'components/breadcrumbs';
-@import 'components/buttons';
-@import 'components/section-description';
-@import 'components/sidebar';
-@import 'components/might-like';
-@import 'components/form';
-@import 'components/alerts';
-@import 'components/pagination';
-@import 'components/search';
-@import 'components/tables';
-@import 'components/badge';
+@import 'base/commen/_commen.scss';
+@import 'base/commen/_commen-responsive.scss';
 
-// Layout
-@import 'layout/header';
-@import 'layout/footer';
+@import 'base/footer/_footer.scss';
+@import 'base/footer/_footer-responsive.scss';
 
-// Pages
-@import 'pages/landing-page';
-@import 'pages/shop';
-@import 'pages/product';
-@import 'pages/cart';
-@import 'pages/checkout';
-@import 'pages/thankyou';
-@import 'pages/search-results';
-@import 'pages/search-results-algolia';
-@import 'pages/auth';
-@import 'pages/my-profile';
-@import 'pages/my-orders';
+@import 'base/forms/_forms.scss';
+@import 'base/forms/_forms-responsive.scss';
+
+@import 'base/header/_header.scss';
+@import 'base/header/_header-responsive.scss';
+
+@import 'base/spacing/_spacing.scss';
+@import 'base/spacing/_spacing-responsive.scss';
+
+//modules
+
+@import 'modules/_plugin.scss';
+
+//fonts
+
+//@import 'fonts/spacefont/_style.scss';
+//@import 'font/spacefont/_icomoon-spacemart.scss';
+
+//css
+
+@import 'css/materialize.scss';
+
+//pages
+
+@import 'pages/home/_home.scss';
+@import 'pages/home/_homes-responsive.scss';
+
+@import 'pages/signin/_signin.scss';
+@import 'pages/signin/_signin-responsive.scss';
+
+@import 'pages/notification/_notification.scss';
+@import 'pages/notification/_notification-responsive.scss';
+
+@import 'pages/products/_products.scss';
+@import 'pages/products/_products-responsive.scss';
+
+@import 'pages/products/_products-details.scss';
+@import 'pages/products/_products-details-responsive.scss';
+
+@import 'pages/myload/_myload.scss';
+@import 'pages/myload/_myload-responsive.scss';
+
+@import 'pages/myload/_delivery.scss';
+@import 'pages/myload/_delivery-responsive.scss';
+
+@import 'pages/myload/_complete-order.scss';
+@import 'pages/myload/_complete-order-responsive.scss';
+
+@import 'pages/myaccount/_myaccount.scss';
+@import 'pages/myaccount/_myaccount-responsive.scss';
+
+
